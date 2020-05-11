@@ -1,0 +1,95 @@
+/* 
+		Class:  CS 125H
+		Date: 5/8/2020
+		Assign: Lab 4
+		Student: Parker Davis 
+ */
+/* the styles for the elements */
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+background: #2E2E3A;
+}
+body {
+	font-family: "Times New Roman", Times, serif;
+	background: #E8DCC2;
+    font-size: 100%;
+    line-height: 150%;
+    width: 53em;
+    margin: 0 auto;
+    border: solid 5px;
+}
+
+a:hover, a:focus {
+	font-style: italic;
+}
+
+/* the styles for the header */
+header {
+	border-bottom: 3px solid #931420;
+	padding: 0 30px 30px 30px;
+}
+
+header h1 {
+	font-size: 150%;
+	padding: .8em ;
+	margin-left: 10em;
+	margin-right: 10em;
+	background: white ;
+	border-style: double;
+	border-radius: 15px;
+	box-shadow: 5px 5px ;
+	text-align: center;
+	background: -moz-linear-gradient(45deg, #f0b7a1 0%, #a51313 32%, #752201 71%, #bf6e4e 100%);
+	background: -webkit-linear-gradient(45deg, #f0b7a1 0%,#a51313 32%,#752201 71%,#bf6e4e 100%); 
+	background: linear-gradient(45deg, #f0b7a1 0%,#a51313 32%,#752201 71%,#bf6e4e 100%); 
+}
+
+/* class style applied to span in header h3 */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+
+/* the styles for the section */
+main {
+	padding: 0 2em .5em 2em;
+}
+
+main h2 {
+	font-size: 130%;
+	color: #800000;
+	padding-bottom: .25em;
+	border-bottom: 3px solid #931420;
+}
+
+main h3 {
+	font-size: 130%;
+	padding-bottom: .25em;
+	color: #800000;
+	border-bottom: 3px solid #931420;
+}
+main ul {
+	padding-left: 2em;
+	padding-bottom: .5em;
+}
+main li {
+	padding-bottom: .5em;
+
+}
+main img {
+	padding-bottom: .5em;
+	padding-top: .5em;
+}
+/* the styles for the footer */
+footer p {
+	text-align: center;
+	background: #7C1015;
+	color: white;
+	padding-top: .5em;
+	padding-bottom: .5em;
+}
